@@ -1,0 +1,17 @@
+.screen{
+    background-size: 100% 100%;
+    position: relative;
+    min-height:100vh;
+    width:100%;
+}
+.navbar{
+    background-color: rgba(9, 19, 150, 0.658);
+}
+
+.screen2{
+    background-size: 100% 100%;
+    position: relative;
+    min-height:100vh;
+    width:100%;
+}
+

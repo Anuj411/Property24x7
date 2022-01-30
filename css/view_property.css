@@ -1,0 +1,33 @@
+.textbox{
+    border-color:rgba(17, 25, 138, 0.658);
+    outline: none;
+    width:80%;
+    padding: 0 8px;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.textbox:focus{
+    outline: none;
+    box-shadow: 0 3px 10px rgba(17, 25, 138, 0.658);
+}
+
+.contact_form{
+    position: relative;
+}
+
+.submit{
+    color:rgba(17, 25, 138, 0.658);
+    border:1px solid rgba(17, 25, 138, 0.658);
+    background-color: white;
+}
+.submit:hover{
+    background-color:rgba(17, 25, 138, 0.658);
+    color:white;
+    box-shadow: 0 3px 10px rgba(17, 25, 138, 0.658);
+}
+
+.property_text{
+    height: 150vh;
+}

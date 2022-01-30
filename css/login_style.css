@@ -1,0 +1,56 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(17, 25, 138, 0.658),rgba(16, 66, 165, 0.377)),url('../Image/home_2.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    min-height:100vh;
+    width:100%;
+}
+.login{
+    color:rgba(17, 25, 138, 0.658);
+    background-color: white;
+    padding:20px;
+    height:390px;
+    width:400px;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.63);
+}
+.controls{
+    font-size:16px;
+    padding-left:34px;
+}
+.submit{
+    color:rgba(17, 25, 138, 0.658);
+    border:1px solid rgba(17, 25, 138, 0.658);
+    background-color: white;
+}
+.submit:hover{
+    background-color:rgba(17, 25, 138, 0.658);
+    color:white;
+    box-shadow: 0 3px 10px rgba(17, 25, 138, 0.658);
+}
+.back_btn{
+    background-color:rgba(17, 25, 138, 0.658);
+    color:white;
+    border:1px solid rgba(17, 25, 138, 0.658);
+}
+.back_btn:hover{
+    box-shadow: 0 3px 10px rgba(17, 25, 138, 0.658);
+    color:rgba(17, 25, 138, 0.658);
+    background-color:white;
+    border:1px solid rgba(17, 25, 138, 0.658);
+}
+.textbox{
+    border-color:rgba(17, 25, 138, 0.658);
+    outline: none;
+    width:90%;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+.textbox:focus{
+    outline: none;
+    box-shadow: 0 3px 10px rgba(17, 25, 138, 0.658);
+}
